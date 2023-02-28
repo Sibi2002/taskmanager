@@ -1,0 +1,1 @@
+create table session_management (id UUID PRIMARY KEY , user_id bigint ,role_id bigint);

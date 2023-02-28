@@ -1,0 +1,10 @@
+truncate table roles cascade;
+truncate table users cascade;
+truncate table tasks cascade;
+truncate table task_progress cascade;
+truncate table status cascade;
+ALTER SEQUENCE roles_role_id_seq RESTART WITH 1;
+ALTER SEQUENCE users_user_id_seq RESTART WITH 1;
+ALTER SEQUENCE tasks_task_id_seq RESTART WITH 1;
+ALTER SEQUENCE task_progress_id_seq RESTART WITH 1;
+ALTER SEQUENCE status_status_id_seq RESTART WITH 1;

@@ -1,0 +1,31 @@
+#signup{
+    padding: 0.5px;
+    
+    text-align: center;
+    align-content: center !important;
+    color: hsl(207, 57%, 72%);
+    width: 60%;
+    min-width: 700px;
+    height: 400px;
+    transform: translateY(50%) translateX(30%);
+}
+#grider{
+  padding: 1%;
+  height: 400px;
+}
+.loginlink{
+  text-shadow: 2;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loginlink:hover{
+   color: hsl(335, 63%, 54%);
+}
+
+#tasker_img{
+    padding: 1px;
+    float: left;
+    width: 45%;
+    height: 400px;
+    object-fit: cover;  
+}
